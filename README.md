@@ -1,6 +1,6 @@
 ShowMessage
 ===========
-screen shot: http://i1363.photobucket.com/albums/r708/MyteeNathanwit/screenshot/modal2_zps5f10c08e.png
+screen shot: http://myteenatanwit.github.io/CssModalMessageBox
 
 Very simple Css to get the modal message box. Often you find the JQ or JS or so. However, we do only CSS, and call it by JavaScript for the fun of it. The cute look of the dialog? yeap! you got it, from the game on my Iphone "clumsy Ninja". I like the message dialog in the game, so I made this one. 
 
