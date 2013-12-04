@@ -1,0 +1,38 @@
+<html>
+<link rel="stylesheet" href="dialogs.css" />        
+<style type="text/css">
+body{
+background: url(IMG_0006.jpg) no-repeat;
+background-size: cover;
+}
+</style>
+
+<body>
+ 
+<input type="button" value="ShowModal" onclick="showModal('Message is center, auto line break, can use em and so on','Modal message');"/> Click me for a modal message
+
+ <div id="modaldialog">
+    <div id="bubble" class='bubble'>
+	 <div class="leftpic"> <img src="icon64.png" /> </div>
+		<h4 id="msgtitle">Title</h4>
+		<p id="msg">This is a sample modal box.</p>
+		<a href="#" onclick="closeModal();"><div class="btn" title="this is a tool tip">Ok</div> </a>
+	</div>
+   
+ </div>
+
+<script type="text/javascript">
+
+function showModal(msg,title) {
+document.getElementById("msgtitle").innerHTML = title;
+document.getElementById("msg").innerHTML = msg;            
+document.getElementById('modaldialog').style.visibility='visible';
+ }
+        
+function closeModal() {
+document.getElementById('modaldialog').style.visibility='hidden';
+ }
+</script>
+
+</body>
+</html>
