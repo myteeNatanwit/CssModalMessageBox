@@ -10,7 +10,7 @@ Very simple Css to get the modal message box. Often you find the JQ or JS or so.
 
 2- We need our message box showing in mid of the screen, the simple way is set it margin: 60% auto, so it locate 60% from top and center itself in the midle. It must set position:relative so that we can control the inner elements.
 
-3- We need a title, optional actually for it default is a dot. It located -10px from top due to position:absolute. You need to keep in mind that its parent position is relative, so it an be absolute. Try to change these position things in dialogs.css and you can see the boxes runing around funny.
+3- We need a title, optional actually for it default is a dot. It located -10px from top due to position:absolute. You need to keep in mind that its parent position is relative, so it an be absolute. Try to change these position things in dialogs.css and you can see the boxes running around funny.
 
 4- The graphic on the left of the msgbox is ugly. I tried to find the oldman head as in the game in vain with gg search "clumsy ninja sprites png", so I just put something there. If u got the right one, then just replace it, or do it with your own alpha one.
 
